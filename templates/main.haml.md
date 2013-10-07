@@ -1,7 +1,7 @@
 This is the main view that the game is played from.
 
     %h1 Mass Politics!
-    %button New Game
+    %button#begin New Game
       - on "click", @newGame
     %button +10
       - on "click", @tenp
